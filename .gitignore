@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==========================================
+# NASA Turbofan Project Specifics
+# ==========================================
+
+# Data downloaded via kagglehub
+CMaps/
+nasa-cmaps/
+
+# Large Model files (if you save them)
+*.h5
+*.keras
+*.pkl
+
+# Any local CSV or TXT data files
+*.csv
+*.txt
